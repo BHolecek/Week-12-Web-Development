@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+figure, figcaption {
+    margin: 0;
+    padding: 0;
+}
+
+figure, table {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    width: 450px;
+    padding: 15px;
+}
+
+figcaption {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    background-color: red;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: 10px auto;
+}
+
+table, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr:nth-child(2), td:nth-child(2) {
+    text-align: center;
+}
+
+tr:nth-child(3), td:nth-child(3) {
+    text-align: center;
+}
+
+tr:nth-child(4), td:nth-child(4) {
+    text-align: center;
+}
+
+tr:nth-child(5), td:nth-child(5) {
+    text-align: center;
+}
